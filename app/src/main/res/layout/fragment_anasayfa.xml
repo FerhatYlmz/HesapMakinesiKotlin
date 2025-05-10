@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnasayfaFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/buttonbolu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@color/material_dynamic_neutral50"
+            android:text="/"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonAC"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="AC"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonesit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:text="="
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backspaceSil"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="0dp"
+        android:backgroundTint="@color/white"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        app:icon="@drawable/silme_resim"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="35dp"
+        app:iconTint="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="Backspace butonu" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/buttoncarpi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@color/material_dynamic_neutral50"
+            android:text="x"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="7"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:rippleColor="#BC7A1C" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="8"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:rippleColor="#BC7A1C" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/buttoneksi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@color/material_dynamic_neutral50"
+            android:text="-"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="4"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="5"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:rippleColor="#BC7A1C" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:rippleColor="#BC7A1C" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/buttonarti"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@color/material_dynamic_neutral50"
+            android:text="+"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:rippleColor="#BC7A1C" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="2"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:rippleColor="#BC7A1C" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="3"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:rippleColor="#BC7A1C" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewSonuc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/alata"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/backspaceSil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
